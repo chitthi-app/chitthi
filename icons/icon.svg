@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="চিঠি · Chitthi">
+  <!-- Chitthi master icon — ONE source for every PNG / favicon / maskable render.
+       Design: rounded-square brand-blue tile (#2563EB -> #1D4ED8, the
+       White & Blue palette), a bold white envelope glyph, and the
+       চিঠি wordmark below it.
+       All artwork sits inside the central safe zone so the maskable
+       render (same file, background rect un-rounded + full-bleed)
+       survives circular / squircle crops. No external assets. -->
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect id="bg" width="512" height="512" rx="112" fill="url(#brand)"/>
+  <g id="art">
+    <!-- Envelope body -->
+    <rect x="96" y="138" width="320" height="204" rx="26" fill="#FFFFFF"/>
+    <!-- Envelope flap (brand-blue chevron) -->
+    <path d="M104 158 L256 268 L408 158" fill="none" stroke="#2563EB" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Envelope lower folds -->
+    <path d="M112 330 L224 238 M400 330 L288 238" fill="none" stroke="#2563EB" stroke-width="14" stroke-linecap="round" opacity="0.55"/>
+    <!-- Wordmark -->
+    <text x="256" y="442" text-anchor="middle" font-family="'Hind Siliguri','Noto Sans Bengali','Inter',sans-serif" font-size="76" font-weight="700" fill="#FFFFFF">চিঠি</text>
+  </g>
+</svg>
