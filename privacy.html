@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — চিঠি · Chitthi</title>
+<meta name="description" content="How the Chitthi messaging app handles your information.">
+<style>
+  :root { --blue: #2563EB; --ink: #0f172a; --muted: #475569; --line: #e2e8f0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: #ffffff; color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.65; font-size: 16px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  .brand { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; }
+  .brand .name { font-size: 26px; font-weight: 700; color: var(--blue); letter-spacing: -0.02em; }
+  .brand .tag { color: var(--muted); font-size: 14px; }
+  h1 { font-size: 30px; line-height: 1.25; margin: 18px 0 6px; letter-spacing: -0.02em; }
+  .effective { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+  h2 { font-size: 19px; margin: 30px 0 8px; letter-spacing: -0.01em; }
+  p, li { color: #1e293b; }
+  ul { padding-left: 22px; margin: 8px 0; }
+  li { margin: 4px 0; }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .card {
+    background: #f8fafc; border: 1px solid var(--line); border-radius: 14px;
+    padding: 16px 18px; margin: 22px 0;
+  }
+  .card p { margin: 0; }
+  .back {
+    display: inline-block; margin-top: 36px; padding: 10px 18px;
+    border: 1px solid var(--blue); border-radius: 999px; color: var(--blue);
+    font-weight: 600; font-size: 15px;
+  }
+  .back:hover { background: #eff6ff; text-decoration: none; }
+  footer { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+  @media (max-width: 480px) {
+    .wrap { padding: 24px 16px 48px; }
+    h1 { font-size: 25px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brand">
+    <span class="name">চিঠি · Chitthi</span>
+    <span class="tag">Messaging app</span>
+  </div>
+
+  <h1>Privacy Policy</h1>
+  <p class="effective">Effective date: 13 November 2026</p>
+
+  <p>Chitthi is a messaging app operated by Maruf Talukder. This policy explains, in plain language, what information Chitthi stores, why, and what choices you have. By using Chitthi, you agree to the practices described here.</p>
+
+  <h2>Information we store</h2>
+  <ul>
+    <li><strong>Account information</strong> — your name, email address, username, and profile photo. This is stored in our backend, Supabase, in a project hosted in Singapore.</li>
+    <li><strong>Messages and media</strong> — the messages you send and the photos, videos, and files you share are stored in Supabase database tables and in private storage buckets, so they can be delivered and synced to your devices. Media in private buckets is reached only through short-lived signed links given to people allowed to see it.</li>
+    <li><strong>Sign-in with Google</strong> — if you sign in with Google, Google shares your name, email address, and profile picture with us to create and identify your account.</li>
+  </ul>
+
+  <h2>Standalone (on-device) mode</h2>
+  <p>Chitthi can also be used in a standalone mode that works without our server. In that mode, your account and chat data are kept only on your own device and are not sent to us.</p>
+
+  <h2>Calls</h2>
+  <p>Voice and video calls in Chitthi are peer-to-peer using WebRTC: the audio and video travel directly between the people on the call. Our app server only helps set up the connection (signalling). We do not record or store your calls.</p>
+
+  <h2>AI Assistant</h2>
+  <p>Chitthi includes an optional AI Assistant. When you send a message to the AI Assistant, that message is sent to Google Gemini, Google's AI service, which processes it and generates the reply. Please do not send sensitive personal information to the AI Assistant.</p>
+
+  <h2>How we use your information</h2>
+  <p>We use the information above only to run the app: creating your account, delivering your messages, connecting your calls, and answering you in the AI Assistant.</p>
+
+  <div class="card">
+    <p><strong>What we do not do:</strong> we do not sell your personal data, and Chitthi contains no third-party advertising trackers.</p>
+  </div>
+
+  <h2>Security</h2>
+  <p>Account passwords are handled by our authentication provider (Supabase Auth) and stored in hashed form — never in plain text. Access to stored data is controlled by database security rules so that users can only reach their own data, and private media is served only through signed links.</p>
+
+  <h2>Deleting your data</h2>
+  <p>You can ask us to delete your account and your data at any time. Send the request from the email address on your account to <a href="mailto:talukdermaruf9@gmail.com">talukdermaruf9@gmail.com</a> and we will delete your account data after we receive the request.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or your data: <a href="mailto:talukdermaruf9@gmail.com">talukdermaruf9@gmail.com</a></p>
+
+  <a class="back" href="./">&larr; Back to Chitthi</a>
+
+  <footer>চিঠি · Chitthi — Privacy Policy · Effective 13 November 2026</footer>
+
+</div>
+</body>
+</html>
